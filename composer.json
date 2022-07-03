@@ -1,4 +1,8 @@
 {
+    "name": "realcodelighter/codelighter",
+    "description": "CodeLighter 1.0",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Helper\\": "app/helpers/",
