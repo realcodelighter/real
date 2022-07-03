@@ -13,5 +13,6 @@
     },
     "require": {
         "realcodelighter/codelighter": "dev-main"
-    }
+    },
+    "prefer-stable": true
 }
