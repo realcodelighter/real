@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Helper\\": "app/helpers/",
+            "Controllers\\": "app/controllers/",
+            "Response\\": "app/response/",
+            "Model\\": "app/models/"
+        }
+    },
+    "require": {
+        "realcodelighter/codelighter": "dev-main"
+    }
+}

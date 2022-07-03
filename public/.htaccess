@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !.*\.(png|gif|ico|jpg|jpeg|pdf|map|svg|css|js|txt|xml|ttf|eot|woff|woff2|mp4)$ [NC]
+RewriteRule ^(.*)$ index.php?CodeLighter=$1 [NC,L,QSA]
